@@ -6,4 +6,4 @@ Sabine Heyne
 
 Praxisprojekt @ HS Harz;
 Medien- und Spielekonzeption;
-Sommersemester 2010
+Sommersemester 2020
