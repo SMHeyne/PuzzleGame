@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-guid: bdc3a1a6fe730c9469860c90a2cb5f37
+guid: dfcd3cdad9d89224485fcaeb61cca0a1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4342437769006224975
-    second: env_Tisch_4x_0
+      213: 8616092048031223296
+    second: env_Kochecke_1x2_0
   - first:
-      213: 7064542096542577480
-    second: env_Tisch_4x_1
-  - first:
-      213: 7572958632722141247
-    second: env_Tisch_4x_2
-  - first:
-      213: 3123564204862531173
-    second: env_Tisch_4x_3
+      213: -4610731017463791390
+    second: env_Kochecke_1x2_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: env_Tisch_4x_0
+      name: env_Kochecke_1x2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,35 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f461bd8c420734c30800000000000000
-      internalID: 4342437769006224975
+      spriteID: 00e08f25112829770800000000000000
+      internalID: 8616092048031223296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: env_Tisch_4x_1
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 100
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 843b6357b9b4a0260800000000000000
-      internalID: 7064542096542577480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: env_Tisch_4x_2
+      name: env_Kochecke_1x2_1
       rect:
         serializedVersion: 2
         x: 0
@@ -167,29 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f309122d0cd881960800000000000000
-      internalID: 7572958632722141247
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: env_Tisch_4x_3
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 566e4ff4811295b20800000000000000
-      internalID: 3123564204862531173
+      spriteID: 2e0023d71946300c0800000000000000
+      internalID: -4610731017463791390
       vertices: []
       indices: 
       edges: []
