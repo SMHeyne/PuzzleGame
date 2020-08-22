@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: env_w_mittelstueck
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: d7572085d670e0c4c9158e113a428efe, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bfb0bdb1f1d86324f851e651adbe3d38, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
