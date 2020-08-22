@@ -359,6 +359,7 @@ GameObject:
   - component: {fileID: 510096275}
   - component: {fileID: 510096274}
   - component: {fileID: 510096273}
+  - component: {fileID: 510096277}
   m_Layer: 5
   m_Name: Main Menu
   m_TagString: Untagged
@@ -491,6 +492,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 510096271}
   m_CullTransparentMesh: 0
+--- !u!114 &510096277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510096271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afeec7041891e744abe808298ee9dd5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hov: {fileID: 622927157}
+  NoHov: {fileID: 911167237}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3400,6 +3415,7 @@ GameObject:
   - component: {fileID: 1580779444}
   - component: {fileID: 1580779443}
   - component: {fileID: 1580779446}
+  - component: {fileID: 1580779447}
   m_Layer: 5
   m_Name: ResetButton
   m_TagString: Untagged
@@ -3532,6 +3548,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d7f5376cd2b8ee47acf5dde98ca1918, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1580779447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580779441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afeec7041891e744abe808298ee9dd5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hov: {fileID: 890206202}
+  NoHov: {fileID: 649743810}
 --- !u!1 &1678690125
 GameObject:
   m_ObjectHideFlags: 0
@@ -3826,7 +3856,7 @@ Sprite:
         format: 0
         dimension: 0
       m_DataSize: 80
-      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf000000000000000000000000000000000000000000000000000000000000000000000000
+      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf00000000000000000000803f0000803f0000803f00000000000000000000803f00000000
     m_Bindpose: []
     textureRect:
       serializedVersion: 2
