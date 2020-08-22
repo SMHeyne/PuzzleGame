@@ -3092,12 +3092,21 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: 8, y: 4, z: 0}
+  - first: {x: 7, y: 4, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 3
       m_TileSpriteIndex: 3
       m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 8, y: 4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
+      m_TileMatrixIndex: 2
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
@@ -3109,7 +3118,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 760420cfe95580c43bfc1fc8500ec8bb, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: d2e2e1c7d9417e643ae28eea77518d73, type: 2}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: ae9480a050c567d4d916fcce00776283, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 2aedba66ba599794db373658804faba6, type: 2}
@@ -3121,7 +3130,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 2384517320319138694, guid: 5ecf3d608daae9c4ab5eecdd46c130f5,
       type: 3}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 21300000, guid: f8ed45cba3d7e124fb7c6d852004cf4e, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 21300000, guid: 8c237827fa7079147a1fe1ca10043e06, type: 3}
@@ -3162,9 +3171,29 @@ Tilemap:
       e31: 0
       e32: 0
       e33: 1
+  - m_RefCount: 1
+    m_Data:
+      e00: -1
+      e01: 0.00000008742278
+      e02: 0
+      e03: 0
+      e10: -0.00000008742278
+      e11: -1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_TileColorArray:
-  - m_RefCount: 6
+  - m_RefCount: 7
     m_Data: {r: 1, g: 1, b: 1, a: 1}
+  - m_RefCount: 0
+    m_Data: {r: 0, g: 0, b: 0, a: 0}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5460,7 +5489,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1678690126
 MonoBehaviour:
   m_ObjectHideFlags: 0
