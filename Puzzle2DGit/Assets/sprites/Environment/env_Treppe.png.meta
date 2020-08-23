@@ -8,6 +8,24 @@ TextureImporter:
   - first:
       213: 2384517320319138694
     second: env_Treppe_1
+  - first:
+      213: 2907840122772770202
+    second: env_Treppe_0
+  - first:
+      213: -7104655101983992483
+    second: env_Treppe_1
+  - first:
+      213: -5715699306844052081
+    second: env_Treppe_2
+  - first:
+      213: 6350632089055883207
+    second: env_Treppe_3
+  - first:
+      213: 7893865788765943939
+    second: env_Treppe_4
+  - first:
+      213: 5194212031732867982
+    second: env_Treppe_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,6 +127,90 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dcf7d6f29ba5820800000000000000
+      internalID: 2907840122772770202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_Treppe_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55d39aa3d1376d90800000000000000
+      internalID: -7104655101983992483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_Treppe_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f852d9473c1cda0b0800000000000000
+      internalID: -5715699306844052081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_Treppe_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf6f57ec3af12850800000000000000
+      internalID: 6350632089055883207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: env_Treppe_4
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
         width: 100
         height: 100
@@ -119,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fedf82b0332bb700800000000000000
-      internalID: 557077670971563761
+      spriteID: 388b0048c15ac8d60800000000000000
+      internalID: 7893865788765943939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: env_Treppe_1
+      name: env_Treppe_5
       rect:
         serializedVersion: 2
         x: 100
@@ -140,8 +242,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68b736e7ed1871120800000000000000
-      internalID: 2384517320319138694
+      spriteID: e836f7f925c851840800000000000000
+      internalID: 5194212031732867982
       vertices: []
       indices: 
       edges: []
