@@ -19,6 +19,18 @@ public class Player : MonoBehaviour
             return false;
         } else
         {
+            GameObject sprite = transform.GetChild(0).gameObject;
+            float d = 0;
+            if (direction.y == 0)
+                d = direction.x * 90;
+            else {
+                if (direction.y == -1)
+                    d = 0;
+                else
+                    d = direction.y * 180;
+            }
+            sprite.transform.rotation = Quaternion.Euler(new Vector3(0, 0, d));
+            
             transform.Translate(direction);
             return true;
         }

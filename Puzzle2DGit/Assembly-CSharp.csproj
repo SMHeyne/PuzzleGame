@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{734A01CB-8FAE-1EDD-542F-F92763D7F8E1}</ProjectGuid>
+    <ProjectGuid>{A5B96E63-64D3-E3AE-B050-91680B516E81}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ChangeText.cs" />
     <Compile Include="Assets\Scripts\EndScreen.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Lachs.cs" />
@@ -601,37 +602,37 @@
       <HintPath>F:/Unity/2019.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>F:/Unity/UnityProject/Puzzle2Dnew/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>F:/Git/PuzzleGame/Puzzle2DGit/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>F:/Unity/UnityProject/Puzzle2Dnew/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>F:/Git/PuzzleGame/Puzzle2DGit/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>F:/Unity/UnityProject/Puzzle2Dnew/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>F:/Git/PuzzleGame/Puzzle2DGit/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>F:/Unity/UnityProject/Puzzle2Dnew/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>F:/Git/PuzzleGame/Puzzle2DGit/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>F:/Unity/UnityProject/Puzzle2Dnew/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>F:/Git/PuzzleGame/Puzzle2DGit/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>F:/Unity/UnityProject/Puzzle2Dnew/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>F:/Git/PuzzleGame/Puzzle2DGit/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>F:/Unity/UnityProject/Puzzle2Dnew/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>F:/Git/PuzzleGame/Puzzle2DGit/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>F:/Unity/UnityProject/Puzzle2Dnew/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>F:/Git/PuzzleGame/Puzzle2DGit/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>F:/Unity/UnityProject/Puzzle2Dnew/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>F:/Git/PuzzleGame/Puzzle2DGit/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>F:/Unity/UnityProject/Puzzle2Dnew/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>F:/Git/PuzzleGame/Puzzle2DGit/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>F:/Unity/UnityProject/Puzzle2Dnew/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>F:/Git/PuzzleGame/Puzzle2DGit/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
