@@ -5,35 +5,40 @@ using UnityEngine.Tilemaps;
 
 public class Player : MonoBehaviour
 {
+    public bool moveable = true;
+
     public bool Move(Vector2 direction)
     {
-        if (Mathf.Abs(direction.x) < 0.5) //will set one of the coords to 0, always --> avoid diagonal movements
-            direction.x = 0;
-        else
-            direction.y = 0;
+        if(moveable) { 
+            if (Mathf.Abs(direction.x) < 0.5) //will set one of the coords to 0, always --> avoid diagonal movements
+                direction.x = 0;
+            else
+                direction.y = 0;
 
-        direction.Normalize(); //makes either x or y = 1, guarantee one unit movement at a time, only one tile
+            direction.Normalize(); //makes either x or y = 1, guarantee one unit movement at a time, only one tile
 
-        if (Blocked(transform.position, direction))
-        {
-            return false;
-        } else
-        {
-            GameObject sprite = transform.GetChild(0).gameObject;
-            float d = 0;
-            if (direction.y == 0)
-                d = direction.x * 90;
-            else {
-                if (direction.y == -1)
-                    d = 0;
-                else
-                    d = direction.y * 180;
-            }
-            sprite.transform.rotation = Quaternion.Euler(new Vector3(0, 0, d));
+            if (Blocked(transform.position, direction))
+            {
+                return false;
+            } else
+            {
+                GameObject sprite = transform.GetChild(0).gameObject;
+                float d = 0;
+                if (direction.y == 0)
+                    d = direction.x * 90;
+                else {
+                    if (direction.y == -1)
+                        d = 0;
+                    else
+                        d = direction.y * 180;
+                }
+                sprite.transform.rotation = Quaternion.Euler(new Vector3(0, 0, d));
             
-            transform.Translate(direction);
-            return true;
+                transform.Translate(direction);
+                return true;
+            }
         }
+        return false;
     }
 
     bool Blocked(Vector3 position, Vector2 direction)
@@ -67,11 +72,13 @@ public class Player : MonoBehaviour
 
         GameObject mat = GameObject.FindGameObjectWithTag("Matte");
 
-        if (newPos.x == mat.transform.position.x && newPos.y == mat.transform.position.y)
-        {
-            if (mat.GetComponent<SushiOnMatte>().currentSushi > -1)
+        if(mat != null) { 
+            if (newPos.x == mat.transform.position.x && newPos.y == mat.transform.position.y)
             {
-                return true;
+                if (mat.GetComponent<SushiOnMatte>().currentSushi > -1)
+                {
+                    return true;
+                }
             }
         }
 

@@ -78,7 +78,8 @@ public class Sushi : MonoBehaviour
             {
 
                 mat.GetComponent<EndScreen>().callEnd();
-                Destroy(sheep);
+                //Destroy(sheep);
+                sheep.GetComponent<Player>().moveable = false;
             }
             
             return;

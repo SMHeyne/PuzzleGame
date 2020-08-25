@@ -71,9 +71,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3203270883276322592, guid: 1badee8e32c3a9944ad58c4e74c44e1f,
-    type: 3}
-  m_Color: {r: 0.6037736, g: 0.45047587, b: 0.36739054, a: 1}
+  m_Sprite: {fileID: 21300000, guid: ab56997be8055ef4ba4b65fc85a87324, type: 3}
+  m_Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -96,9 +95,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteArray:
-  - {fileID: -6729685504589329088, guid: 1badee8e32c3a9944ad58c4e74c44e1f, type: 3}
-  - {fileID: -2881746212815275564, guid: 0910aa21c8a81ca44be9a3aba0577429, type: 3}
-  - {fileID: -8084173116391918963, guid: 0910aa21c8a81ca44be9a3aba0577429, type: 3}
+  - {fileID: 21300000, guid: 59e03d50a4aa15b46bac1a0811d1d1d1, type: 3}
+  - {fileID: 21300000, guid: 184b44e432d37bb4cb02d94dbdaa12ba, type: 3}
+  - {fileID: 21300000, guid: f30c98a8a4c6f7e4da9e8ba571dd4d5a, type: 3}
   spriteRenderer: {fileID: 166703768935312006}
   sushiSprite: 0
   currentSushi: -1
+  z1: {fileID: 0}
+  z1_check: {fileID: 0}
+  z2: {fileID: 0}
+  z2_check: {fileID: 0}
+  z3: {fileID: 0}
+  z3_check: {fileID: 0}

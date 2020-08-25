@@ -10,20 +10,28 @@ public class SushiOnMatte : MonoBehaviour
 
     public int currentSushi = -1;
 
+    public GameObject z1, z1_check, z2, z2_check, z3, z3_check;
+
     void Update()
     {
         switch (currentSushi)
         {
             case 0:
                 spriteRenderer.sprite = spriteArray[0];
+                z1.SetActive(false);
+                z1_check.SetActive(true);
                 break;
 
             case 1:
                 spriteRenderer.sprite = spriteArray[1];
+                z2.SetActive(false);
+                z2_check.SetActive(true);
                 break;
 
             case 2:
                 spriteRenderer.sprite = spriteArray[2];
+                z3.SetActive(false);
+                z3_check.SetActive(true);
                 break;
 
             default:
