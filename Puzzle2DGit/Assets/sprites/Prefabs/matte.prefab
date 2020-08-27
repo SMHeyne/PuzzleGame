@@ -95,9 +95,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteArray:
-  - {fileID: 21300000, guid: 59e03d50a4aa15b46bac1a0811d1d1d1, type: 3}
-  - {fileID: 21300000, guid: 184b44e432d37bb4cb02d94dbdaa12ba, type: 3}
-  - {fileID: 21300000, guid: f30c98a8a4c6f7e4da9e8ba571dd4d5a, type: 3}
+  - {fileID: 21300000, guid: c70d50281ad8f3d4c94caa4467a81b5f, type: 3}
+  - {fileID: 21300000, guid: 34e46d7beb8f45d4c908a01e7f0e3150, type: 3}
+  - {fileID: 21300000, guid: 7f102a4a4b7cd5b45ba2325538796d36, type: 3}
   spriteRenderer: {fileID: 166703768935312006}
   sushiSprite: 0
   currentSushi: -1
